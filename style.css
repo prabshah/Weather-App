@@ -1,0 +1,71 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+
+body{
+       background: linear-gradient(45deg, rgba(1, 9, 16, 0), rgba(17, 158, 211, 0.24)), url(http://pngimg.com/uploads/world_map/world_map_PNG3.png);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       
+       font-size: 18px;
+}
+
+.container{
+       width:100%;
+}
+
+.search{
+       margin-top: 5%;
+       width: 100px;
+       margin-right: auto;
+       margin-left: auto;
+       display: flex;
+       justify-content: space-around;
+       font-size: 120%;
+}
+
+.search_button, .search_box{
+       font-size: 120%;
+       padding: .18rem .8rem;
+       border: 0;
+       box-shadow:  0 10px 25px -0px rgba(101, 93, 103, 0.29)
+}
+
+.search_box{
+       border: 0;
+       outline: 0;
+}
+.search_button{
+       color: #fff;
+       background: #5AEED1;
+}
+
+.search_button{
+       cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

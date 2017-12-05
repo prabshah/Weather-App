@@ -48,6 +48,7 @@ body{
 }
 
 .search_button{
+    /* can this cursor: pointer property go into the styling which is already declared for class .search_button above? */
        cursor: pointer;
 }
 

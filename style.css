@@ -5,12 +5,12 @@
 }
 
 body{
-       background: linear-gradient(45deg, rgba(1, 9, 16, 0), rgba(17, 158, 211, 0.24)), url(http://pngimg.com/uploads/world_map/world_map_PNG3.png);
+       background: linear-gradient(45deg, rgba(45, 159, 247, 0.59), rgba(71, 187, 247, 0.73)), url(http://amarillo.com/sites/default/files/14720645.jpg);
        background-size: cover;
        background-position: center;
        background-repeat: no-repeat;
        background-attachment: fixed;
-       
+
        font-size: 18px;
 }
 
@@ -29,19 +29,22 @@ body{
 }
 
 .search_button, .search_box{
-       font-size: 120%;
        padding: .18rem .8rem;
        border: 0;
-       box-shadow:  0 10px 25px -0px rgba(101, 93, 103, 0.29)
-}
-
-.search_box{
+       box-shadow:  0 10px 25px -0px rgba(101, 93, 103, 0.29);
        border: 0;
        outline: 0;
 }
+
+.search_box{
+       text-transform: capitalize;
+       color: #818588;
+       font-size: 100%;
+}
 .search_button{
        color: #fff;
-       background: #5AEED1;
+       background: #5baee6;
+       font-size: 120%;
 }
 
 .search_button{

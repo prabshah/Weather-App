@@ -7,7 +7,7 @@ This project is one of the homeworks for the Code Your Future coding training co
 
 ##Prabesh
 
-Prabesh focuses into how to how to fetch data from weather Api that can be then used to display into the applications. Prabesh is also constantly in touch with other team members and suggest any suggesting to inprove the app's performance.
+Prabesh focuses into how to fetch data from weather Api that can be then used to display into the application. Prabesh is also constantly in touch with other team members and suggest any suggesting to inprove the app's performance.
 
 ##Louis
 
@@ -15,7 +15,7 @@ Louis focuses into designing and creating visually pleasing UI/UX that is easy i
 
 ##Lukasz
 
-Lukas mentors Prabes hand Louis on how to work effectively on a team and acheive the desired goal. He alos gives useful tips  throuhout the project.
+Lukasz mentors Prabes hand Louis on how to work effectively on a team and acheive the desired goal. He alos gives useful tips  throuhout the project.
 
 #Technologies
 

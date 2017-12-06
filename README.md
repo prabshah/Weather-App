@@ -15,7 +15,7 @@ Louis focuses into designing and creating visually pleasing UI/UX that is easy i
 
 ##Lukasz
 
-Lukasz mentors Prabes hand Louis on how to work effectively on a team and acheive the desired goal. He alos gives useful tips  throuhout the project.
+Lukasz mentors Prabes hand Louis on how to work effectively in a team and acheive the desired goal. He alos gives useful tips  throuhout the project.
 
 #Technologies
 

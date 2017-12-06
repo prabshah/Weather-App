@@ -45,7 +45,6 @@ body{
        color: #fff;
        background: #5baee6;
        font-size: 120%;
-    
        
 }
 
@@ -54,7 +53,15 @@ body{
        cursor: pointer;
 }
 
+/*style added by prabesh */
 
+#display {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin-top: 20px;
+    
+}
 
 
 

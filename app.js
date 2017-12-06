@@ -5,6 +5,7 @@ const apiKey = '&appid=74135956998ce2475c7ebcde0a57e073'
 const unit = '&units=metric'
 
 const submit = document.getElementById('submit')
+const display = document.getElementById('display')
 let inputVal, city, url
 
 const getWeather = () => {
@@ -20,12 +21,25 @@ const getWeather = () => {
          return response.json()
        })
        .then( function(json) {
-          console.log(json) 
+          const info = ['City', 'Tempeture', 'Max Tempeture', 'Min Tempeture']
+          const value = [json.name, json.main.temp, json.main.temp_max, json.main.temp_min]
+         
+          showData(info, value)
        })
   
     }
 }
-
+const showData = (arrOne, arrTwo) => {
+    var list = document.createElement('ul')
+    for( i = 0; i < arrOne.length; i++ ) {
+        var listItm = document.createElement('li')
+        listItm.innerHTML = arrOne[i] + '  :   ' + arrTwo[i]
+        list.appendChild(listItm)
+        
+    }
+    display.innerHTML = ''
+    display.appendChild(list)
+}
 submit.addEventListener('click', getWeather)
 
 

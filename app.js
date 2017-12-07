@@ -21,7 +21,7 @@ const getWeather = () => {
          return response.json()
        })
        .then( function(json) {
-          const info = ['City', 'Tempeture', 'Max Tempeture', 'Min Tempeture']
+          const info = ['City', 'Current Tempeture', 'Max Tempeture', 'Min Tempeture']
           const value = [json.name, json.main.temp, json.main.temp_max, json.main.temp_min]
          
           showData(info, value)
@@ -33,9 +33,13 @@ const showData = (arrOne, arrTwo) => {
     var list = document.createElement('ul')
     for( i = 0; i < arrOne.length; i++ ) {
         var listItm = document.createElement('li')
-        listItm.innerHTML = arrOne[i] + '  :   ' + arrTwo[i]
+        if (i > 0 && i < 4) {
+        listItm.innerHTML = arrOne[i] + '  :   ' + arrTwo[i] + '  °C'
         list.appendChild(listItm)
-        
+        } else {
+            listItm.innerHTML = arrOne[i] + '  :   ' + arrTwo[i]
+            list.appendChild(listItm) 
+        }
     }
     display.innerHTML = ''
     display.appendChild(list)

@@ -13,7 +13,7 @@ const getWeather = () => {
     city = inputVal.toLowerCase(inputVal)
     if ( city != '' ) {
        url = api + city + apiKey + unit
-       
+       console.log(url)
        // featch the response from the openweather url
 
        fetch ( url )

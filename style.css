@@ -10,7 +10,7 @@ body{
        background-position: center;
        background-repeat: no-repeat;
        background-attachment: fixed;
-
+       color: white;
        font-size: 18px;
 }
 
@@ -57,20 +57,46 @@ body{
 
 #display {
     text-align: center;
-    font-size: 3rem;
-    color: white;
     margin-top: 50px;
-    
+    margin-bottom: 50px;  
 }
 
 
+#currentWeather {
+   
+}
+
+#currentWeather li:first-child {
+    font-size: 3rem;
+}
+
+#currentWeather li:nth-child(2) {
+    font-size: 2rem; 
+}
+#currentWeather li:nth-child(3) {
+    font-size: 4rem; 
+}
+#currentWeather li:nth-child(4) {
+    font-size: 1.5rem; 
+}
 
 
+#show-forecast {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#display-forecast {
+    text-align: center;
+    margin-top: 50px;
 
-
-
-
-
+}
+.mainTemp {
+    font-size: 30px;
+}
 
 
 

@@ -57,7 +57,7 @@ const currentWeather = (arr) => {
 }
 
 var weatherForecast = () => {
-    const forecastApi = 'http://api.openweathermap.org/data/2.5/forecast?q='
+    const forecastApi = 'https://api.openweathermap.org/data/2.5/forecast?q='
 
     inputVal = document.getElementById('input').value;
     city = inputVal.toLowerCase(inputVal)

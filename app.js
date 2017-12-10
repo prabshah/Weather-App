@@ -52,6 +52,7 @@ const currentWeather = (arr) => {
     }
     display.innerHTML = ''
     display.appendChild(list)
+    showForecast.innerHTML = 'Show Forecast'
     
     
 }
@@ -91,6 +92,17 @@ var weatherForecast = () => {
 }
 
 getCurrent.addEventListener('click', getWeather)
-showForecast.addEventListener('click', weatherForecast)
+
+showForecast.addEventListener('click', function() {
+    if( showForecast.textContent === 'Show Forecast') {
+        weatherForecast()
+        showForecast.innerHTML = 'Hide Forecast'
+    } else if(showForecast.textContent === 'Hide Forecast') {
+        forecastDisplay.innerHTML = ''
+        showForecast.innerHTML = 'Show Forecast'
+    }
+    
+    
+})
 
 
